@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Programming 22366</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Welcome to Hoa's Website</h1>
+    <p id="currentTime"></p>
+    <img src="image/Hoa Nguyen.jpg" alt="Hoa Nguyen">
+    <p>Hi, I’m Hoa Nguyen, a computer science major with a passion for coding and all things tech...</p>
+    <p>Outside of my studies, I enjoy blending my love for technology with my other interests...</p>
+    
+    <button id="toggleBackgroundButton">Toggle Background Color</button>
+
+    <!-- Contact and Mailbox Section -->
+    <div class="form-container">
+        <h2>Contact Me</h2>
+        <form id="contactForm">
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" placeholder="Enter your email" required>
+            
+            <label for="message">Your Message:</label>
+            <textarea id="message" placeholder="Write your message here" rows="4" required></textarea>
+            
+            <button type="submit">Send</button>
+        </form>
+        
+        <h3>Mailbox</h3>
+        <ul id="messageList"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
